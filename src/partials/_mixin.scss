@@ -1,13 +1,16 @@
 
-// Mixin Per attribuire flex 
 @mixin flex_row {
     display: flex;
 }
 
-// Mixin Per il Font-size dei menu
 @mixin menu_text {
     font-weight: 700;
     font-size: 13px;
 }
 
-
+@mixin button_jumbo {
+    color: rgb(255, 255, 255);
+    background-color: #3f5dba;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 6px;
+}

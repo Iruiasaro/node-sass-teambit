@@ -52,3 +52,44 @@ header .nav_header .navbar_text button img {
   width: 18px;
   vertical-align: middle;
 }
+
+.jumbo {
+  display: flex;
+}
+.jumbo .jumbo_left {
+  padding: 10px;
+  width: 50%;
+  color: black;
+}
+.jumbo .jumbo_left h1 {
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+.jumbo .jumbo_left p {
+  padding-bottom: 30px;
+  font-size: 12px;
+}
+.jumbo .jumbo_left button {
+  color: white;
+  background-color: #3f5dba;
+  border: 1px solid black;
+  padding: 6px;
+  border-radius: 5px;
+}
+.jumbo .jumbo_left button img {
+  width: 10px;
+}
+.jumbo .jumbo_left .or_text {
+  font-size: 12px -5px;
+  padding: 10px -3px;
+}
+.jumbo .jumbo_left .jumbo-parag {
+  font-size: 12px;
+  margin-top: 8px;
+}
+.jumbo .jumbo_right {
+  width: 75%;
+}
+.jumbo .jumbo_right img {
+  width: 100%;
+}

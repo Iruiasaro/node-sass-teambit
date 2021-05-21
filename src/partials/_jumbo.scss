@@ -1,0 +1,47 @@
+.jumbo {
+    @include flex_row;
+
+    .jumbo_left {
+        padding: $padding;
+        width: 50%;
+        color: $textColor;
+
+        h1 {
+            padding-bottom: $padding;
+            font-size: $paragSize*2;
+
+        }
+
+        p {
+            padding-bottom: $padding*3;
+            font-size: $paragSize;
+        }
+
+        button {
+            @include button_jumbo;
+            border-radius: 5px;
+            
+            img {
+                width: 10px;
+            }
+        }
+
+        .or_text {
+            font-size: $paragSize -5px;
+            padding: $padding -3px;
+        }
+
+        .jumbo-parag {
+            font-size: $paragSize;
+            margin-top: 8px;
+        }
+    }
+
+    .jumbo_right {
+        width: 75%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
