@@ -1,0 +1,45 @@
+header {
+    padding: 18px;
+    border-bottom: 1px solid $textColor;
+
+    .nav_header {
+        @include flex_row;
+        justify-content: space-between;
+
+        .navbar_text {
+            @include flex_row;
+            align-items: center;
+            list-style-type: none;
+
+            li {
+                padding-left: 15px;
+                a {
+                    text-decoration: none;
+                    color: $textColor;
+                    @include menu_text;
+
+                    &:hover {
+                        color: $primaryColor;
+                    }
+                }
+            }
+
+            button {
+                padding: 15px;
+                border: 1px solid $textColor;
+                background-color: rgb(255, 255, 255);
+                border-radius: 8px;
+
+                &:hover {
+                    background-color: $primaryColor;
+                    color: $textColor;
+                }
+
+                img {
+                    width: 18px;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}

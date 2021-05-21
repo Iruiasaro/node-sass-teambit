@@ -1,0 +1,13 @@
+
+// Mixin Per attribuire flex 
+@mixin flex_row {
+    display: flex;
+}
+
+// Mixin Per il Font-size dei menu
+@mixin menu_text {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
