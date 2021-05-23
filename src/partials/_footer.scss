@@ -4,6 +4,7 @@
         width: 40%;
         padding: $padding*2;
 
+
         img {
             vertical-align: top;
             padding: $padding;
@@ -29,18 +30,21 @@
             .footer_elenco {
                 font-size: $paragSize+5px;
                 font-weight: bold;
+
             }
 
             li {
                 font-size: $paragSize;
                 font-weight: 500;
-                padding: $padding/2;
-                list-style-type: none;
+                padding: $padding/6;
                 margin-top: $padding;
+                color: $secondaryColor;
+                list-style-type: none;
 
                 a {
-                    color: $primaryColor;
                     text-decoration: none;
+                    color: $secondaryColor;
+
                 }
             }
         }

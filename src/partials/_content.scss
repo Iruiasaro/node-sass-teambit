@@ -1,0 +1,162 @@
+.central_section {
+    background-color: $primaryColor;
+    text-align: center;
+
+    h2 {
+        padding: $padding*3;
+        font-size: $titleSize/2;
+    }
+
+    .wrap_central_up {
+        align-items: baseline;
+        @include flex_display;
+
+        .img_wrap {
+            width: calc(100%/3);
+
+            img {
+                width: 30%;
+            }
+        }
+
+        p {
+            font-size: $paragSize;
+        }
+    }
+
+    .wrape_central_down {
+        padding: $padding*5;
+
+        img {
+            width: 30%;
+        }
+    }
+}
+
+
+.double_wrap {
+    padding: $padding;
+}
+
+.row {
+    div {
+        width: 45%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .double_wrap_text {
+        margin-bottom: 40px;
+
+        h2 {
+            font-size: $paragSize+2px;
+            margin: $padding*2;
+        }
+
+        p{
+            font-size: $paragSize;
+            color: $primaryColor;
+            margin: $padding*2;
+
+        }
+
+        a {
+            font-size: $paragSize;
+            text-decoration: none;
+            margin: $padding*2;
+        }
+    }
+}
+
+.pre_footer {
+    background-color: $primaryColor;
+    padding: $padding;
+    
+    .pre_footer_title {
+        color: $secondaryColor;
+        text-align: center;
+    }
+
+    .pre_footer_wrap {
+        margin: auto;
+        padding: $padding*2;
+        border-radius: 12px;
+        font-size: $paragSize;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid $textColor;
+        margin-top: 30px;
+        width: 45%;
+
+        .pre_footer_img {
+            vertical-align: middle;
+            display: inline-block;
+
+            img {
+                width: 25px;
+            }
+        }
+    }
+
+    .chief_char {
+        display: inline-block;
+
+        .chief {
+            color: #0e14EE;
+        }
+    }
+
+    .pre_footer_buttons {
+        text-align: center;
+        margin-top: $margin*2;
+
+        button {
+            border-radius: 8px;
+            @include button_jumbo;
+
+            img {
+                width: 19px;
+            }
+        }
+
+        .or_text {
+            font-size: $paragSize;
+            padding: $padding -3px;
+        }
+
+        p {
+            font-size: $paragSize+5px;
+            padding: $padding*2;
+        }
+    }
+}
+
+
+.row {
+    @include flex_display;
+}
+
+.direction_row {
+    flex-direction: row-reverse;
+}
+
+
+.separator {
+    .wrape_central_down {
+        border-bottom: 1px solid black;
+    }
+}
+
+.img_safe {
+    padding: $padding*10;
+}
+
+
+
+.margin_row {
+    .double_wrap_text,
+    .wrap_double_text-img {
+        margin-left: 50%;
+    }
+}

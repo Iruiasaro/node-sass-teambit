@@ -3,7 +3,6 @@
     flex-direction: row;
 }
 
-
 @mixin button_jumbo {
     color: rgb(255, 255, 255);
     background-color: #3f5dba;
@@ -11,3 +10,7 @@
     padding: 6px;
 }
 
+@mixin menu_text {
+    font-size: 12px;
+    font-weight: bold;
+}
