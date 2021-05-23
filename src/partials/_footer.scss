@@ -1,0 +1,49 @@
+.nav_footer {
+    @include flex_display;
+    .logo_foot {
+        width: 40%;
+        padding: $padding*2;
+
+        img {
+            vertical-align: top;
+            padding: $padding;
+            width: 80px;
+        
+        }
+
+        .foot_text_logo {
+            font-size: $paragSize+5px;
+            color: $primaryColor;
+            display: inline-block;
+        }
+    }
+
+    .footer-menu {
+        @include flex_display;
+        padding: $padding;
+        width: 60%;
+
+        .footer_intestazione {
+            width: calc( 100% / 5 );
+
+            .footer_elenco {
+                font-size: $paragSize+5px;
+                font-weight: bold;
+            }
+
+            li {
+                font-size: $paragSize;
+                font-weight: 500;
+                padding: $padding/2;
+                list-style-type: none;
+                margin-top: $padding;
+
+                a {
+                    color: $primaryColor;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+

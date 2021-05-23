@@ -1,12 +1,8 @@
-
-@mixin flex_row {
+@mixin flex_display {
     display: flex;
+    flex-direction: row;
 }
 
-@mixin menu_text {
-    font-weight: 700;
-    font-size: 13px;
-}
 
 @mixin button_jumbo {
     color: rgb(255, 255, 255);
@@ -14,3 +10,4 @@
     border: 1px solid rgb(0, 0, 0);
     padding: 6px;
 }
+

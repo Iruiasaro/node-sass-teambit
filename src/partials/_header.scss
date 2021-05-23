@@ -3,11 +3,11 @@ header {
     border-bottom: 1px solid $textColor;
 
     .nav_header {
-        @include flex_row;
+        @include flex_display;
         justify-content: space-between;
 
         .navbar_text {
-            @include flex_row;
+            @include flex_display;
             align-items: center;
             list-style-type: none;
 

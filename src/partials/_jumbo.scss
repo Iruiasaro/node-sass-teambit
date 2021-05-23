@@ -1,5 +1,5 @@
 .jumbo {
-    @include flex_row;
+    @include flex_display;
 
     .jumbo_left {
         padding: $padding;
